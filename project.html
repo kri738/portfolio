@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<meta name="description"
+content="Gaming Universe - Explore Free Fire, BGMI and Call Of Duty.">
+
+<meta name="keywords"
+content="Gaming, Free Fire, BGMI, COD, Battle Royale">
+
+<meta name="author"
+content="Krish Bhuva">
+
+<meta name="theme-color"
+content="#050816">
+
+<title>Gaming Universe | Krish Bhuva</title>
+
+<link rel="icon" href="logo.png">
+
+<!-- Google Font -->
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<!-- Boxicons -->
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+rel="stylesheet">
+
+<!-- AOS -->
+
+<link rel="stylesheet"
+href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<!-- CSS -->
+
+<link rel="stylesheet"
+href="project.css">
+
+</head>
+
+<body>
+    <div class="progress-bar"></div>
+
+<div class="scroll-top">
+    <i class='bx bx-up-arrow-alt'></i>
+</div>
+
+<!--========================================
+            WELCOME POPUP
+=========================================-->
+
+<div class="popup-overlay"
+id="welcomePopup">
+
+<div class="popup-card">
+
+<div class="popup-icon">
+
+🎮
+
+</div>
+
+<h1>
+
+Welcome Gamer!
+
+</h1>
+
+<p>
+
+Welcome to
+
+<strong>Gaming Universe</strong>
+
+<br>
+
+Explore the world's most popular
+
+Battle Royale games.
+
+</p>
+
+<button id="exploreBtn">
+
+Explore Now
+
+<i class='bx bx-right-arrow-alt'></i>
+
+</button>
+
+</div>
+
+</div>
+
+<!--========================================
+                HEADER
+=========================================-->
+
+<header class="header">
+
+<nav class="navbar">
+
+<a href="#home"
+class="logo">
+
+<i class='bx bxs-joystick'></i>
+
+<span>
+
+Gaming Universe
+
+</span>
+
+</a>
+
+<ul class="nav-menu">
+
+<li>
+
+<a href="#home"
+class="active">
+
+Home
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#games">
+
+Games
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#stats">
+
+Statistics
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#community">
+
+Community
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#contact">
+
+Contact
+
+</a>
+
+</li>
+
+<li>
+
+<a href="index.html">
+
+Portfolio
+
+</a>
+
+</li>
+
+</ul>
+
+<div class="nav-right">
+
+<button id="themeToggle">
+
+<i class='bx bx-moon'></i>
+
+</button>
+
+<div class="menu-btn">
+
+<i class='bx bx-menu'></i>
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+<!--========================================
+                HERO
+=========================================-->
+
+<section class="hero"
+id="home">
+
+<div class="hero-content"
+data-aos="fade-right">
+
+<span class="hero-badge">
+
+🔥 India's Ultimate Gaming Hub
+
+</span>
+
+<h1>
+
+Gaming
+
+<span>
+
+Universe
+
+</span>
+
+</h1>
+
+<h2>
+
+<span id="typing"></span>
+
+</h2>
+
+<p>
+
+Discover the world's most popular Battle Royale games,
+
+learn professional gameplay tips,
+
+improve your skills,
+
+and become part of an amazing gaming community.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="#games"
+class="btn">
+
+Explore Games
+
+<i class='bx bx-right-arrow-alt'></i>
+
+</a>
+
+<a href="#community"
+class="btn btn-outline">
+
+Join Community
+
+</a>
+
+</div>
+
+<div class="social-icons">
+
+<a href="https://youtube.com"
+target="_blank">
+
+<i class='bx bxl-youtube'></i>
+
+</a>
+
+<a href="https://instagram.com"
+target="_blank">
+
+<i class='bx bxl-instagram'></i>
+
+</a>
+
+<a href="https://facebook.com"
+target="_blank">
+
+<i class='bx bxl-facebook-circle'></i>
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image"
+data-aos="fade-left">
+
+<div class="hero-image-frame">
+
+<img src="gaming.jpeg"
+alt="Gaming Universe">
+
+</div>
+
+</div>
+
+</section>
+
+<!--========================================
+            SEARCH SECTION
+=========================================-->
+
+<section class="search-section">
+
+    <div class="search-box">
+
+        <i class='bx bx-search'></i>
+
+        <input
+            type="text"
+            id="gameSearch"
+            placeholder="Search your favorite game..."
+        >
+
+    </div>
+
+</section>
+
+<!--========================================
+            FEATURED GAMES
+=========================================-->
+
+<section class="games" id="games">
+
+    <h2 class="section-title" data-aos="fade-up">
+
+        Featured Games
+
+    </h2>
+
+    <p class="section-subtitle" data-aos="fade-up">
+
+        Explore the world's most popular Battle Royale games.
+
+    </p>
+
+    <div class="game-container">
+
+        <!--================ FREE FIRE ================-->
+
+        <article class="game-card" data-aos="zoom-in">
+
+            <div class="game-image">
+
+                <img src="ff.jpg" alt="Free Fire">
+
+                <div class="game-overlay">
+
+                    <span>Battle Royale</span>
+
+                </div>
+
+            </div>
+
+            <div class="game-content">
+
+                <h3>Free Fire</h3>
+
+                <p>
+
+                    Fast-paced survival shooter featuring unique
+                    characters, exciting abilities and intense
+                    multiplayer battles.
+
+                </p>
+
+                <div class="game-tags">
+
+                    <span>Action</span>
+
+                    <span>Survival</span>
+
+                    <span>Multiplayer</span>
+
+                </div>
+
+                <div class="game-footer">
+
+                    <div class="rating">
+
+                        ⭐ 4.6 / 5
+
+                    </div>
+
+                    <a href="freefire.html" class="game-btn">
+
+                        Explore
+
+                        <i class='bx bx-right-arrow-alt'></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <!--================ BGMI ================-->
+
+        <article class="game-card"
+
+            data-aos="zoom-in"
+
+            data-aos-delay="150">
+
+            <div class="game-image">
+
+                <img src="bgmi.jpg" alt="BGMI">
+
+                <div class="game-overlay">
+
+                    <span>Competitive</span>
+
+                </div>
+
+            </div>
+
+            <div class="game-content">
+
+                <h3>BGMI</h3>
+
+                <p>
+
+                    India's favorite battle royale game featuring
+                    realistic gameplay, competitive esports and
+                    tactical squad battles.
+
+                </p>
+
+                <div class="game-tags">
+
+                    <span>Esports</span>
+
+                    <span>Squad</span>
+
+                    <span>Battle Royale</span>
+
+                </div>
+
+                <div class="game-footer">
+
+                    <div class="rating">
+
+                        ⭐ 4.8 / 5
+
+                    </div>
+
+                    <a href="bgmi.html" class="game-btn">
+
+                        Explore
+
+                        <i class='bx bx-right-arrow-alt'></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <!--================ CALL OF DUTY ================-->
+
+        <article class="game-card"
+
+            data-aos="zoom-in"
+
+            data-aos-delay="300">
+
+            <div class="game-image">
+
+                <img src="cod.jpg" alt="Call Of Duty">
+
+                <div class="game-overlay">
+
+                    <span>FPS Shooter</span>
+
+                </div>
+
+            </div>
+
+            <div class="game-content">
+
+                <h3>Call Of Duty</h3>
+
+                <p>
+
+                    Experience modern military combat with stunning
+                    graphics, multiplayer action and immersive
+                    first-person shooter gameplay.
+
+                </p>
+
+                <div class="game-tags">
+
+                    <span>FPS</span>
+
+                    <span>Military</span>
+
+                    <span>Action</span>
+
+                </div>
+
+                <div class="game-footer">
+
+                    <div class="rating">
+
+                        ⭐ 4.9 / 5
+
+                    </div>
+
+                    <a href="cod.html" class="game-btn">
+
+                        Explore
+
+                        <i class='bx bx-right-arrow-alt'></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!--========================================
+            GAMING STATISTICS
+=========================================-->
+
+<section class="stats" id="stats">
+
+    <h2 class="section-title" data-aos="fade-up">
+
+        Gaming Statistics
+
+    </h2>
+
+    <p class="section-subtitle" data-aos="fade-up">
+
+        Our growing gaming community in numbers.
+
+    </p>
+
+    <div class="stats-container">
+
+        <div class="stat-box"
+             data-aos="fade-up">
+
+            <i class='bx bx-game'></i>
+
+            <h1>3+</h1>
+
+            <h3>Popular Games</h3>
+
+            <p>
+
+                Explore the most popular Battle Royale games.
+
+            </p>
+
+        </div>
+
+        <div class="stat-box"
+             data-aos="fade-up"
+             data-aos-delay="150">
+
+            <i class='bx bx-group'></i>
+
+            <h1>1000+</h1>
+
+            <h3>Community Members</h3>
+
+            <p>
+
+                Join thousands of passionate gamers.
+
+            </p>
+
+        </div>
+
+        <div class="stat-box"
+             data-aos="fade-up"
+             data-aos-delay="300">
+
+            <i class='bx bx-trophy'></i>
+
+            <h1>50+</h1>
+
+            <h3>Gaming Events</h3>
+
+            <p>
+
+                Exciting tournaments and community events.
+
+            </p>
+
+        </div>
+
+        <div class="stat-box"
+             data-aos="fade-up"
+             data-aos-delay="450">
+
+            <i class='bx bx-world'></i>
+
+            <h1>24/7</h1>
+
+            <h3>Updates</h3>
+
+            <p>
+
+                Latest news, updates and gaming guides.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================
+            COMMUNITY
+=========================================-->
+
+<section class="community"
+         id="community">
+
+    <div class="community-card"
+         data-aos="zoom-in">
+
+        <span class="community-badge">
+
+            🎮 Join Our Gaming Family
+
+        </span>
+
+        <h2>
+
+            Level Up Your Gaming Experience
+
+        </h2>
+
+        <p>
+
+            Connect with gamers around the world,
+
+            share your strategies,
+
+            discover exclusive gaming tips,
+
+            and become a part of our growing gaming community.
+
+        </p>
+
+        <div class="community-features">
+
+            <div>
+
+                <i class='bx bx-check-circle'></i>
+
+                Daily Gaming News
+
+            </div>
+
+            <div>
+
+                <i class='bx bx-check-circle'></i>
+
+                Professional Tips
+
+            </div>
+
+            <div>
+
+                <i class='bx bx-check-circle'></i>
+
+                Friendly Community
+
+            </div>
+
+            <div>
+
+                <i class='bx bx-check-circle'></i>
+
+                Free Access
+
+            </div>
+
+        </div>
+
+        <div class="community-buttons">
+
+            <a href="registration.html"
+               class="btn">
+
+                Register Now
+
+            </a>
+
+            <a href="login.html"
+               class="btn btn-outline">
+
+                Login
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================
+                CONTACT
+=========================================-->
+
+<section class="contact" id="contact">
+
+    <h2 class="section-title" data-aos="fade-up">
+
+        Contact Us
+
+    </h2>
+
+    <p class="section-subtitle" data-aos="fade-up">
+
+        We'd love to hear from you.
+
+    </p>
+
+    <div class="contact-container">
+
+        <div class="contact-card" data-aos="fade-up">
+
+            <i class='bx bx-envelope'></i>
+
+            <h3>Email</h3>
+
+            <p>
+
+                krishbhuva789@gmail.com
+
+            </p>
+
+        </div>
+
+        <div class="contact-card"
+
+             data-aos="fade-up"
+
+             data-aos-delay="150">
+
+            <i class='bx bx-phone'></i>
+
+            <h3>Phone</h3>
+
+            <p>
+
+                +91 9313470432
+
+            </p>
+
+        </div>
+
+        <div class="contact-card"
+
+             data-aos="fade-up"
+
+             data-aos-delay="300">
+
+            <i class='bx bx-map'></i>
+
+            <h3>Location</h3>
+
+            <p>
+
+                Junagadh, Gujarat, India
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--========================================
+                FOOTER
+=========================================-->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Logo -->
+
+        <div class="footer-column">
+
+            <h2>
+
+                🎮 Gaming Universe
+
+            </h2>
+
+            <p>
+
+                Gaming Universe is your destination for Battle Royale games, gaming news, guides, esports updates and a passionate gaming community.
+
+            </p>
+
+        </div>
+
+        <!-- Quick Links -->
+
+        <div class="footer-column">
+
+            <h3>
+
+                Quick Links
+
+            </h3>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#games">Games</a></li>
+
+                <li><a href="#stats">Statistics</a></li>
+
+                <li><a href="#community">Community</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+
+        <!-- Games -->
+
+        <div class="footer-column">
+
+            <h3>
+
+                Popular Games
+
+            </h3>
+
+            <ul>
+
+                <li>
+
+                    <a href="freefire.html">
+
+                        Free Fire
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="bgmi.html">
+
+                        BGMI
+
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="cod.html">
+
+                        Call Of Duty
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!-- Social -->
+
+        <div class="footer-column">
+
+            <h3>
+
+                Follow Us
+
+            </h3>
+
+            <div class="footer-social">
+
+                <a href="https://youtube.com/@flashgamer07-ff?si=FIz2z3yrSQT4WnVU">
+
+                    <i class='bx bxl-youtube'></i>
+
+                </a>
+
+                <a href="https://www.instagram.com/krish_bhuva_2007?igsh=YXJuZmd0b3phcnRn">
+
+                    <i class='bx bxl-instagram'></i>
+
+                </a>
+
+                <a href="https://www.facebook.com/share/1dkogd1N4k/">
+
+                    <i class='bx bxl-facebook-circle'></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 Gaming Universe | Designed & Developed by
+
+            <strong>
+
+                Krish Bhuva
+
+            </strong>
+
+        </p>
+
+    </div>
+
+</footer>
+
+<!--========================================
+            JAVASCRIPT
+=========================================-->
+
+<!-- AOS -->
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<!-- Typed JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!-- Main JavaScript -->
+
+<script src="project.js"></script>
+
+</body>
+
+</html>
